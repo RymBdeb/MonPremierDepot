@@ -2,7 +2,7 @@ import unittest
 
 # Fonction à tester
 def addition(a, b):
-    return a + b - 1
+    return a + b 
 
 # Classe de test
 class TestAddition(unittest.TestCase):
@@ -16,4 +16,4 @@ class TestAddition(unittest.TestCase):
 test_addition = unittest.TestLoader().loadTestsFromTestCase(TestAddition)  # On charge les tests depuis la classe
 
 # Exécution du test
-unittest.TextTestRunner().run(test_addition
+unittest.TextTestRunner().run(test_addition)
