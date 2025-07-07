@@ -14,7 +14,7 @@ class TestPuissance(unittest.TestCase):
         self.assertAlmostEqual(puissance(2.5, 2), 6.25)
         self.assertAlmostEqual(puissance(9, 0.5), 3.0)
 
-# Définition d'un objet test
+# Définition d un objet test
 test_entiers = unittest.TestLoader().loadTestsFromTestCase(TestPuissance)  # On charge les tests depuis la classe, mettre comme argument le nom de la classe définie pour le test
 test_floats = unittest.TestLoader().loadTestsFromTestCase(TestPuissance)
 # Exécution du test
